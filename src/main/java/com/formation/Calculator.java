@@ -20,7 +20,6 @@ public class Calculator {
     }
 
     public int divide(int a, int b) {
-        int result = 0;
         if (b == 0) {
             throw new ArithmeticException("Division par zéro impossible");
         }
