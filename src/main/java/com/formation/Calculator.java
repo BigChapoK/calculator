@@ -25,4 +25,8 @@ public class Calculator {
         }
         return a / b;
     }
+    
+    public boolean isOperation(String op) {
+        return op == "add"; // Comparaison avec == au lieu de .equals()
+    }
 }
